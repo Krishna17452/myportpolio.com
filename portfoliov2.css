@@ -1,0 +1,837 @@
+body{
+    background: black
+}
+.conctbox{
+    background: white;
+    display: inline;
+    width:300px;
+    height:360px;
+    left:0;
+    bottom: 0;
+    top: 520px;
+    position: sticky;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.maincontbox{
+    width:270px;
+    height:300px;
+    border:none;
+    border-radius: 6px;
+    background: rgb(49, 49, 49);
+    position: absolute;
+    margin-top: -250px;
+    display: none;
+}
+.maincontbox input{
+    margin-left: 15px;
+    margin-top: 15px;
+    height:28px;
+    width:230px;
+    border:none;
+    border-radius: 4px;
+    background-color: rgb(238, 238, 238);
+}
+.subconctbox{
+    width:50px;
+    height:50px;
+    background: cyan;
+    border: none;
+    border-radius: 12px;
+    position: relative;
+    margin-left: 30px;
+}
+.conctimg{
+    width:40px;
+    height: 40px;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.subconctbox:hover .maincontbox{
+    display: block;
+}
+.nav_box{
+    position: sticky;
+    top:0;
+    z-index: 10;
+    margin-top: 0px;
+}
+.Nav_bar{
+    display: grid;
+    grid-template-columns: 100px 600px;
+    justify-content: space-between;
+    color:white;
+    background: rgb(124, 124, 124);
+    height:45px;
+    border:none;
+    border-radius: 2px;
+    font-family: Footlight MT Light;
+    z-index: 10;
+}
+.name{
+    text-align: center;
+    padding-top: 13px;
+    margin-left: 100px;
+    font-size: 20px;
+    color:orange;
+    font-weight: bold;
+}
+.nav_item ul{
+    margin: 11px;
+    margin-top: 12px;
+    padding: 0px; 
+}
+.nav_item li{
+    list-style-type: none;
+    display: inline;
+    padding:15px 10px;
+    font-size: 18px;
+}
+.nav_item li a{
+    text-decoration: none;
+    color:white;
+}
+.nav_item li:hover{
+    background:black;
+    border-radius: 2px;
+
+}
+.body1{
+    background: black;
+    display: grid;
+    margin-bottom: 0px;
+    grid-template-rows: 520px 640px 640px 625px 650px 680px 0px;
+}
+ 
+.Home{
+    display: grid;
+    color:white;
+    grid-template-columns: 1.5fr 1fr;
+}
+.parabox{
+    margin-top: 70px;
+    margin-left: 120px;
+    line-height: 19px; 
+    font-family:serif;
+    font-weight: bold; 
+    text-shadow: 1px 1px rgb(134, 134, 134);
+}
+.para1{
+    font-size: 55px; 
+}
+.para2, .para3{
+    font-size: 75px; 
+    display: inline;
+}
+.para3{ 
+    margin-left:0px;
+    color:orange;
+}
+.para4{
+
+    font-size: 25px; 
+    font-weight:lighter;
+    text-shadow:none;
+    display: inline;
+}
+.letteranimationbox{
+    font-size: 25px; 
+    font-weight:lighter;
+    text-shadow:none;
+    padding: 2px;
+    background:orange;
+    display: inline-block;
+    animation: typing 2s steps(31) infinite;
+    border-right: 2px solid black;
+    position: relative;
+    z-index: 1;
+    
+}
+.letteranimation{
+    color:black;
+    position: relative;
+    white-space: nowrap;
+ 
+   }
+@keyframes typing {
+    to{
+        width:0%;
+    }
+}
+
+.submit{
+    margin-left:80px;
+    margin-top: 30px;
+    width:100px;
+    height:40px;
+    font-size: 16px;
+    font-weight: bold;
+    background: cyan;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.aboutbutton, .contactsubject{
+    margin-left:120px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    width:120px;
+    height:40px;
+    font-size: 15px;
+    font-weight: bold;
+    background: cyan;
+    color:black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgb(124, 124, 124);
+}
+.aboutbutton a{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+.socialmediabox{
+    width:220px;
+    height:50px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.socialmediaimg{
+    width:30px; 
+    height:30px;
+    background: cyan;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.imgbox{
+    width:300px; 
+    height:300px;
+    border:none;
+    margin-left:50px;
+    margin-top: 60px;
+    border-radius: 50%;
+    box-shadow: 3px 4px 6px 8px rgb(0, 195, 255);
+    padding-top: -20px;
+}
+.profile{
+    width:360px; 
+    height:360px;
+    margin-top: -70px;
+    margin-left: -30px;
+}
+.Aboutme{
+    color:white;
+    background: rgb(44, 44, 44);
+}
+#Aboutmeid, #skillid, #educationid, #Projectsid, #Experienceid, #ContactMeid {
+    font-size: 30px; 
+    font-weight: bold; 
+    text-align: center; 
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color:white;
+}
+#Aboutmeid {
+    margin-bottom: 30px;
+}
+#skillid{
+    margin-bottom: 20px;
+}
+#educationid{
+    margin-bottom: 45px;
+}
+#Projectsid{
+    margin-top: 40px;
+}
+.aboutbox{
+    width:1000px; 
+    height:300px; 
+    border:none; 
+    display: inline-block; 
+    margin-left: 170px;
+    margin-top: 50px;
+    font-family:Arial;
+}
+.Developer_image{ 
+    width:270px; 
+    height:390px; 
+    border:none; 
+    float: left;
+    border-radius:8px; 
+    margin-top: -30px; 
+    margin-left: 10px; 
+    margin-right: 40px; 
+    box-shadow: 2px 2px 4px 4px black;
+}
+.para5{ 
+  font-size: 30px;
+  font-weight: bold;
+  margin-left:0px;
+  display: inline; 
+  padding-top: 50px;
+}
+.para6{
+    font-size: 25px;
+    margin-left:0px;
+}
+.para7{
+    font-size: 15px;
+    margin-left:0px;
+    
+}
+.resume{
+    width:100px; 
+    height:35px; 
+    font-size: 15px; 
+    font-weight: bold; 
+    color:black; 
+    background: cyan; 
+    border: none; 
+    border-radius: 4px;
+    margin-top: 40px;
+    box-shadow: 4px 4px 1px 1px black;
+    cursor: pointer;
+}
+.Skills{
+    background: black;
+}
+.Skillbox{
+    width:1050px; 
+    height:490px; 
+    border:none; 
+    border-radius: 8px; 
+    margin-left: 150px; 
+    margin-top:20px; 
+    background: rgb(15, 15, 15);
+    box-shadow: 2px 2px 2px 2px cyan;
+}
+.skillsbox{
+    width:130px;
+    height:130px;
+    border:none;
+    border-radius: 6px;
+    display: inline-block;
+    color:white;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 3.6%;
+    margin-left: 8%;
+   
+}
+.skillimage, .skillimage2, .skillimage3, .skillimage4, .skillimage5, .skillimage6, .skillimage7, .skillimage8{
+    width:128px;
+    height:120px;
+    border:solid white 1px;
+    margin-top:0px;
+    background-size: 100% 100%;
+    background-image: url('https://icon-library.com/images/html5-icon/html5-icon-13.jpg');
+}
+.skillimage2{
+    background-image: url('https://www.logolynx.com/images/logolynx/8f/8fb97dec724d750d2085173816712ffc.png');
+}
+.skillimage3{
+    background-image: url('https://logospng.org/download/javascript/logo-javascript-icon-512.png');
+}
+.skillimage4{
+    background-image: url('https://brandlogos.net/wp-content/uploads/2021/11/java-logo.png');
+}
+.skillimage5{
+    background-image: url('https://cdn.iconscout.com/icon/free/png-256/c-58-1175247.png');
+}
+.skillimage6{
+    background-image: url('https://seeklogo.com/images/R/react-logo-65B7CD91B5-seeklogo.com.png');
+}
+.skillimage7{
+    background-image: url('https://them.es/starter-bootstrap/wp-content/uploads/sites/7/2021/05/bootstrap-logo.png');
+}
+.skillimage8{
+    background-image: url('https://ml8ifm01pjpu.i.optimole.com/Lc-mSFs-LTl6_sX_/w:auto/h:auto/q:91/https://www.itmedical.de/wp-content/uploads/2020/05/Microsoft_Office_logo.png');
+}
+.skillname{
+    background:gray;
+    height:34px;
+    padding-top: 8px;
+} 
+.skillsbox:hover .skillname{
+    background: rgb(219, 219, 219);
+    color:black;
+}
+.Education{
+    background: rgb(44, 44, 44);
+}
+.educationbox,.educationbox2{
+    width:800px; 
+    height:200px; 
+    box-shadow: 2px 2px 2px 2px cyan;
+    border-radius: 6px; 
+    margin-left: 250px; 
+    margin-top: 30px;
+    background:  black;
+    color:white;
+    font-family: Cambria Math;
+}
+.educationbox2{
+    margin-top: 50px;
+}
+.clgimage{
+    width:250px; 
+    height:200px; 
+    border: none; 
+    border-radius: 6px;
+}
+.parabox3{
+    width:540px; 
+    height:180px;
+    border:none; 
+    display: inline-block; 
+    vertical-align:55px;
+}
+.para8{
+    margin-top:20px; 
+    font-size:20px; 
+    margin-left:30px; 
+    font-weight: bold;
+}
+.para9, .para10{
+    font-size: 18px; 
+    margin-left: 30px;
+}
+.project1{
+    width:280px;
+    height:350px;
+    background-image: url('https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/1b/6b/ec1b6b30-4479-98fb-8398-cac7f790e8d9/AppIcon-0-0-1x_U007epad-0-85-220.png/512x512bb.jpg');
+    border:none;
+    border-radius: 6px;
+    margin-left: 130px;
+    margin-top: 80px;
+    display: inline-block;
+    box-shadow: 2px 2px 2px 2px cyan;
+    background-size: 100% 100%;
+}
+.para11{
+    font-weight:bold;
+    font-size: 30px;
+    color:white;
+    text-align: center;
+    margin-top: 306px;
+    background-color: black;
+    border-radius: 6px;
+    padding: 5px;
+}
+.timeline{
+    position: relative;
+    max-width: 1100px;
+    margin:50px auto;
+}
+.Experiencebox{
+    position: relative;
+    padding:10px 40px;
+    width:50%;
+    animation: boxmoves 2s linear forwards;
+    opacity: 0;
+    z-index: 2;
+}
+.Experiencebox:nth-child(1){
+    animation-delay: 0s;
+}
+.Experiencebox:nth-child(2){
+    animation-delay: 1s;
+}
+ 
+.experienceboxs{
+    background: black;
+    color:white;
+    border-radius: 6px;
+    position: relative;
+    margin:10px 40px;
+    padding:10px;
+    font-family:cursive;
+    box-shadow: 0px 4px 4px 0px cyan;
+}
+.left-box{
+    left:0;
+}
+.right-box{
+    left:50%;
+}
+.Experiencebox span{
+    width:40px;
+    height:40px;
+    background: white;
+    border-radius: 50%;
+    top:50px;
+    right:20px;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+}
+.right-box span{
+    left:20px;
+}
+.timeline::after{
+    content: '';
+    position: absolute;
+    width:6px;
+    height:100%;
+    background: cyan;
+    top:2px;
+    left:50%;
+    margin-left: 35px;
+    border-radius: 4px;
+    z-index: 1;
+    animation: linemove 2s linear forwards;
+}
+.experienceimg{
+    margin-top: -3px; 
+    font-size: 50px; 
+    font-weight: bold;
+}
+.left-arrow{
+height:0;
+width:0;
+position: absolute;
+top:35px;
+z-index: 1;
+border-top: 15px solid transparent;
+border-bottom: 15px solid transparent;
+border-left: 15px solid black;
+right:-14px;
+display: inline;
+}
+.right-arrow{
+height:0;
+width:0;
+position: absolute;
+top:35px;
+z-index: 1;
+border-top: 15px solid transparent;
+border-bottom: 15px solid transparent;
+border-right: 15px solid black;
+left:-14px;
+display: inline;
+}
+.Contact{
+    background: black;
+    margin-top: 0px;
+    padding-bottom: 50px;
+}
+.contactbox{
+    background:  rgb(22, 22, 22);
+    width:800px;
+    height:450px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.8); 
+    border-radius: 8px;
+    margin-left: 230px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+    box-shadow: 2px 2px 2px 2px cyan;
+}
+.contactbox1{
+    background-size: 100% 100%;
+    background-image: url('https://img.freepik.com/free-photo/3d-portrait-people_23-2150793919.jpg?t=st=1727857819~exp=1727861419~hmac=2cb61a6749df66844540a6baf4eb687d330530194b63a9b5de44214a37274fdd&w=360');
+}
+.inputbox1{
+    height:180px;
+    width:385px;
+    background: rgb(228, 228, 228);
+    margin-top: 20px;
+    margin-left: 20px;
+    border:none;
+    border-radius: 6px;
+    font-size: 15px;
+ }
+.inputbox{
+    width:370px;
+    height:32px;
+    padding-left: 20px;
+    background: rgb(228, 228, 228);
+    margin-top: 20px;
+    margin-left: 20px;
+    border:none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.contactsubject{
+    margin-top: 10px;
+    margin-left:290px;
+}
+.footer{
+    text-align: center;
+    color:gray;
+}
+@keyframes boxmoves{
+    0%{
+        opacity: 1;
+        transform: translateY(-10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes linemove{
+    0%{
+        height:0;
+    }
+    100%{
+        height:100%;
+    }
+}
+@media(max-width:420px){
+    .conctbox{
+    top: 780px;
+    }
+    .Nav_bar{
+        display: grid;
+        grid-template-columns: none;
+        height:38px;
+    }
+    .name{
+        display:none;
+    }
+    .nav_item ul{
+        margin-top: 9px;
+        margin-left: 10px;
+    }
+    .nav_item li{
+        padding:15px 7px;
+        font-size: 12px;
+    }
+    .body1{
+        display: grid; 
+        grid-template-rows: 650px 600px 650px 550px 520px 650px;
+    }
+    .Home{
+        grid-template-columns: none;
+    }
+    .parabox{
+        margin:0px;
+        line-height:10px; 
+        margin-top:20px;
+        margin-left:30px;
+    }
+    .para1{
+        font-size:25px;
+    }
+    .para2{
+        font-size:30px;
+    }
+    .para3{
+        font-size:30px;
+    }
+    .para4{
+        font-size:18px; 
+    }
+    .letteranimationbox{
+        font-size: 18px; 
+        font-weight: bold;
+        padding: 5px;
+    }
+    @keyframes typing {
+    to{
+        width:65%;
+    }
+}
+    .aboutbutton{
+        width:80px;
+        height:25px;
+        margin-top:5px;
+        margin-left:30px;  
+        font-size: 12px; 
+        box-shadow: 1px 1px 2px 1px rgb(124, 124, 124);
+    }
+    .socialmediabox{ 
+        margin-left: 28px;
+        margin-top: 20px;
+    }
+.socialmediaimg{
+    width:25px; 
+    height:25px;
+    margin-left: 5px;
+}
+    .imgbox{
+        width:210px; 
+        height:210px;
+        margin-top:0px;
+        margin-left:80px;
+    }
+    .profile{
+        width:275px; 
+        height:270px;
+    }
+    .conctbox{
+        top: 460px;
+    }
+    .subconctbox{
+        width:37px;
+        height:37px;
+        margin-left: 15px;
+    }
+    .conctimg{
+        width:28px;
+        height:28px;
+        margin-top: 6px;
+    }
+    #Aboutmeid, #skillid, #educationid, #Projectsid, #Experienceid, #ContactMeid {
+        font-size: 25px; 
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .aboutbox{
+        width:340px; 
+        height:auto; 
+        margin-left:20px;
+        margin-top: 80px;
+    }
+    .Developer_image{ 
+        width:120px; 
+        height:180px; 
+        margin-top: -40px; 
+        margin-left: 0px; 
+        margin-right: 20px; 
+        box-shadow: 2px 2px 4px 4px black;
+    }
+    .para5{ 
+      font-size:22px;
+    }
+    .para6{
+        font-size: 17px;
+    }
+    .para7{
+        font-size: 13px;
+    }
+    .resume{
+        width:80px; 
+        height:30px; 
+    } 
+    .Skillbox{
+        width:355px; 
+        height:550px; 
+        margin-left:10px; 
+        margin-top:25px;
+    }
+    .skillsbox{
+        width:100px;
+        height:100px;
+        font-size:15px;
+        margin-left:12%;
+        margin-top:28px;
+    }
+    .skillimage, .skillimage2, .skillimage3, .skillimage4, .skillimage5, .skillimage6{
+        width:96px;
+        height:96px;
+     }
+     .skillname{
+        height:28px;
+    }
+    .educationbox,.educationbox2{
+        width:350px; 
+        height:180px;  
+        margin-left:10px; 
+        margin-top:20px;
+    }
+    .educationbox2{
+        margin-top: 50px;
+    }
+    .clgimage{
+        width:150px;
+        height:180px; 
+    }
+    .parabox3{
+        width:190px; 
+        height:130px;
+        vertical-align:55px;
+    }
+    .para8{
+        margin-top:20px; 
+        font-size:15px;
+        margin-left:5px;
+    }
+    .para9, .para10{
+        font-size: 12px; 
+        margin-left: 5px;
+    }
+    .project1{
+        width:150px;
+        height:150px;
+        margin-left:25px;
+        position: relative;
+    }
+    .para11{
+        font-size: 15px;
+        width:140px;
+        margin-top: 124px;
+        position: absolute;
+    }  
+    .timeline{
+        margin:10px auto;
+    }
+    .timeline::after{
+       left:10px;
+    }
+    .experienceboxs{
+        width:100%;
+        margin:20px 40px;
+        padding-left: 20px;
+    }
+    .experienceboxs p{
+        font-size: 10px;
+    }
+    .Experiencebox span{
+        top:60px;
+    }
+    .left-box, .experienceimg1{
+      left:20px;
+    }
+    .right-box, .experienceimg1{
+        left:10px;
+      }
+    .right-arrow, .left-arrow{
+        border-right: 15px solid black;
+        border-left: 0;
+        left: -15px;
+        }
+        .right-box{
+            left:10;
+        }
+    .contactbox{
+        width:360px;
+        height:auto;
+        margin-left:5px;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns:none;
+    }
+    .contactbox1{
+     display: none;
+    }
+    .inputbox1{
+        height:120px;
+        width:280px;
+        border-radius: 4px;
+     }
+    .inputbox{
+        width:270px;
+        height:20px;
+        padding-left:10px;
+        border-radius: 4px;
+    }
+    .contactbox2{
+        margin-left: 20px;
+    }
+    .contactsubject{
+        margin-top: 30px;
+        margin-left:40px;
+        margin-bottom: 20px;
+        width: 80px;
+        height: 25px;
+    }
+    }
